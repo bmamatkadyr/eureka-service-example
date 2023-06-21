@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+
+# disable self registration
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+# disable logging
+logging:
+  level:
+    com.netflix.eureka: 'OFF'
+    com.netflix.discovery: 'OFF'
